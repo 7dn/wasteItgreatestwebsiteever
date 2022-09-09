@@ -1,0 +1,83 @@
+<html>
+
+<style> 
+
+body { 
+    background-color: #181818;
+} 
+
+</style> 
+
+<head>
+
+<center>
+
+<div class="fade-in-image" style="font-family: Arial";>
+	<div style="font-family: Arial;">
+	<link rel="stylesheet" href="style.css">
+	<title>E-Waste and How to Prevent It</title>
+</div>
+
+</head>
+
+<body class="storeBody">
+
+<p> ㅤㅤ </p>
+
+<div class="storetopbanner" style="background-color:#5bcf9e;color:white;padding:1%;width:1000px">Reuse <b>IT</b> - <b>Store</b></div>
+<div class="storebottombanner" style="background-color:#3f8c6c;color:white;padding:1%;width:1000px"><b><a href="./index.html" style="color:#545454">Home</a> <a href="./charities.html" style="color:#545454">Charities</a></b> <b><a href="./faq.html" style="color:#545454">FAQ</a></b> <b><a href="./store.html" style="color:white">Store</a></b></div>
+
+<script type="text/javascript">
+
+var predeftext = "Items in Basket: "
+var num = 0;
+var empty = "";
+
+document.getElementById("output").innerHTML = empty;
+
+
+function add() {
+
+num++;
+var defplusnum = predeftext + num;
+
+document.getElementById("output").innerHTML = defplusnum;
+
+}
+
+</script>
+
+<script type="text/javascript">
+
+function redirect()
+
+{
+
+window.location="http://paypal.me/waste1t";
+
+}
+
+</script>
+
+<div>
+<p> <div id="output"> </div> <div> </p>
+</div>
+
+<div> <img src="tote-bag.jpg" alt="Tote Bag" width="200" height="200"> <img src="greeting-card.jpg" alt="Greeting Card" width="200" height="200"> <img src="coffeecup.jpg" alt="Reusable Cup" width="200" height="200"> </div>
+<p>ㅤReuse <b>IT</b> Tote Bagㅤㅤㅤ Reuse <b>IT</b> Greeting Card ㅤㅤReuse <b>IT</b> Reusable Cup </p> 
+<p>  £13.99   ㅤㅤㅤㅤㅤ      ㅤ     ㅤ   £4.99  ㅤ                             ㅤㅤㅤ ㅤㅤ   ㅤ£10.99  </p>
+<button onclick="add()">Add to Basket</button> ㅤ      ㅤㅤ  ㅤㅤㅤ<button onclick="add()">Add to Basket</button> ㅤ      ㅤㅤ  ㅤㅤ  ㅤ<button onclick="add()">Add to Basket</button> 
+<p> ㅤㅤ </p>
+<p> ㅤㅤ </p>
+</div>
+
+<p> <i> Alternatively, you can donate to us here: </i> <button onclick="redirect()">Donate</button> </p>
+<p> <i> For every 100 tote bags sold, we will give away a £20 Amazon gift card. </i> </p> 
+</div>
+</div>
+
+<p> ㅤㅤ </p>
+
+</body>
+</center>
+</html>

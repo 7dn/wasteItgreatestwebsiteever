@@ -1,0 +1,78 @@
+
+
+img {
+  border-radius: 3%;
+}
+
+body {
+	background: linear-gradient(-45deg, #626262, #4e4e4e, #8a8a8a, #6a6a68);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+	color: white;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+title {
+	vertical-align: top;
+}
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	@include button-filled($blue-color);
+	border:0;
+	padding: $button-padding/2.5 $button-padding*1.5 $button-padding/2.5 $button-padding*1.5;
+    	font-size: 0.8em;
+}
+
+.fade-in-image { animation: fadeIn 2s; }
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.link:hover { color: #00FF00; }
+
+.indexbottombanner a:hover {
+
+	background-color: #3cc928;
+	
+	}
+
+.faqbottombanner a:hover {
+
+		background-color: #40b4e6;
+		
+		}
+
+.charitiesbottombanner a:hover {
+
+		background-color: #7e4880;
+			
+		}
+
+
+.storebottombanner a:hover {
+
+		background-color: #5bcf9e;
+			
+		}
+
+
+
+
+
