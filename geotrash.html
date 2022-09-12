@@ -1,17 +1,5 @@
 <html>
 
-<style> 
-
-body { 
-    	background-color: #181818;
-	background: linear-gradient(-45deg, #6a6a68, #121212, #2a2a2a, #6a6a68);
-	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
-	height: 100vh;
-        color: white;
-}
-
-</style> 
 
 <head>
 <center>
@@ -21,6 +9,16 @@ body {
 	<link rel="stylesheet" href="style.css">
 	<title>Geotrash</title>
 </div>
+
+<style>
+body {
+	background: linear-gradient(-45deg, #6a6a68, #121212, #2a2a2a, #6a6a68);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+        color: white;
+}
+</style>
 
 </head>
 
@@ -58,7 +56,9 @@ body {
 <img src="./badge-pre-order-on-the-app-store.svg">
 <p> ㅤㅤ </p>
 
-<button onclick="myFunction()" id="demo">How we verify trash collected</button>
+<button onclick="myFunction4()" id="demo4">Advanced FAQ</button>
+
+<button onclick="myFunction()" id="demo">Verifying trash collection</button>
 
 <div id="text"><p>This is a difficult process, as someone could theoretically upload a picture of the same trash repeatedly.</p>
 <p> Our approach is to take the images that are uploaded and publicise them to local players so they can verify them. The incentive to verify images is levelling up. </p>
@@ -87,7 +87,7 @@ function myFunction() {
 
 <button onclick="myFunction2()" id="demo2">Rewards</button>
 
-<div id="text2"><p>We aim to reach deals with large retailers and small businesses alike to give our players discounts and gift cards on products. </p> </div>
+<div id="text2"><p>Initially, we aim to reach deals with large retailers and small businesses alike to give our players discounts and gift cards on products. </p> </div>
 
 <style>
 #text2 {
@@ -125,7 +125,7 @@ function myFunction3() {
 
 <div id="text3"><p>We expect Geotrash to be a highly monetizable game - in the sense that we will be approaching companies directly to make deals with them</p>
 <p>for our playerbase. If our conversion rate is high, then we will have a platform where advertisers will strive to put their products on. </p>
-<p>Additionally, we also microtransactions and in-game advertisements will also be a driving source of revenue.</p> 
+<p>Additionally, we plan for microtransactions and in-game advertisements to be a source of revenue.</p> 
 <p>If Geotrash achieves a large playerbase, then we expect it to generate a large amount of revenue and to minimise the amount of litter in large cities.</div>
 
 <style>
@@ -152,6 +152,40 @@ function myFunction3() {
   } else {
     x.style.display = "block";
   }
+}
+</script>
+
+<div id="text4"><p>We expect Geotrash to be a highly monetizable game - in the sense that we will be approaching companies directly to make deals with them</p>
+<p>for our playerbase. If our conversion rate is high, then we will have a platform where advertisers will strive to put their products on. </p>
+<p>Microtransactions and in-game advertisements will also be additional sources of revenue.</p> 
+<p>If Geotrash achieves a large playerbase, then we expect it to generate a large amount of revenue and to minimise the amount of litter in large cities.</p></div>
+
+<style>
+#text4 {
+
+display: none;
+
+}
+</style>
+<script> 
+  var y = document.getElementById("demo3");
+  var z = document.getElementById("demo2");
+  var a = document.getElementById("demo");
+  y.style.display = 'none';
+  z.style.display = 'none';
+  a.style.display = 'none';
+</script>
+
+<script>
+function myFunction4() {
+  var x = document.getElementById("demo4");
+  var y = document.getElementById("demo3");
+  var z = document.getElementById("demo2");
+  var a = document.getElementById("demo");
+  x.style.display = 'none';
+  y.style.display = 'block';
+  z.style.display = 'block';
+  a.style.display = 'block';
 }
 </script>
 
